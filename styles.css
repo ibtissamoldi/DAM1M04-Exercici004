@@ -1033,3 +1033,34 @@ a, button {
     align-items: flex-start;
     gap: 10px;
   }
+    .hero img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+    .section-black {
+    padding: 60px 15px;
+  }
+
+  .section-black .features {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .section-black .feature {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .section-black .feature.wide {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-black .feature.wide video {
+    max-width: 100%;
+  }
