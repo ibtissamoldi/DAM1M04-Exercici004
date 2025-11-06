@@ -1008,3 +1008,28 @@ a, button {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+
+  h1, h2, h3 {
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+    .nav-top ul,
+  .nav-sticky ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sticky-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
