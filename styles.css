@@ -1064,3 +1064,32 @@ a, button {
   .section-black .feature.wide video {
     max-width: 100%;
   }
+    .photo-tools {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tool-box {
+    flex: 1 1 100%;
+  }
+    .ml-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ml-card {
+    flex: 1 1 100%;
+  }
+    .layer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layer-text, .layer-image {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .layer-image img {
+    max-width: 100%;
+  }
